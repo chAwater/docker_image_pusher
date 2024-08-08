@@ -1,6 +1,17 @@
-nginx
+### Examples
+# nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+# k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+# xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# --platform=linux/arm64 xiaoyaliu/alist
+
+# ---
+
+### Check the platform
+# docker system info --format '{{.OSType}}/{{.Architecture}}'
+
+### My images, for linux/amd64
+--platform=linux/amd64 netdata/netdata:edge
+
+### My images, for linux/arm64, also known the linux/aarch64
