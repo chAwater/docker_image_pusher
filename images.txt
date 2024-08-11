@@ -19,3 +19,9 @@ ubuntu:latest
 oguzpastirmaci/gpu-burn
 
 ### My images, for linux/arm64, also known the linux/aarch64
+
+# ---
+
+### IMMICH
+ghcr.io/immich-app/immich-server:release
+ghcr.io/immich-app/immich-machine-learning:release
