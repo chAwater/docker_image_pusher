@@ -19,6 +19,7 @@ ubuntu:latest
 --platform=linux/amd64 oguzpastirmaci/gpu-burn
 --platform=linux/amd64 cschranz/gpu-jupyter:v1.7_cuda-12.2_ubuntu-22.04
 --platform=linux/amd64 wwwsine/feishu2md
+--platform=linux/amd64 cford38/evodiff
 
 ### My images, for linux/arm64, also known the linux/aarch64
 
