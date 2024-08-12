@@ -18,6 +18,7 @@ ubuntu:latest
 --platform=linux/amd64 netdata/netdata:edge
 --platform=linux/amd64 oguzpastirmaci/gpu-burn
 --platform=linux/amd64 cschranz/gpu-jupyter:v1.7_cuda-12.2_ubuntu-22.04
+--platform=linux/amd64 wwwsine/feishu2md
 
 ### My images, for linux/arm64, also known the linux/aarch64
 
