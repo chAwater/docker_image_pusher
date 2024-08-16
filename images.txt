@@ -1,30 +1,24 @@
-### Examples
-# nginx
-#支持私库
-# k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-# xhofe/alist:latest
-#支持指定架构
-# --platform=linux/arm64 xiaoyaliu/alist
-
-# ---
-
 ### Check the platform
 # docker system info --format '{{.OSType}}/{{.Architecture}}'
+
+# ---
 
 ### Images
 ubuntu:latest
 
 ### My images, for linux/amd64
---platform=linux/amd64 netdata/netdata:edge
---platform=linux/amd64 oguzpastirmaci/gpu-burn
---platform=linux/amd64 cschranz/gpu-jupyter:v1.7_cuda-12.2_ubuntu-22.04
---platform=linux/amd64 wwwsine/feishu2md
---platform=linux/amd64 cford38/evodiff
+# --platform=linux/amd64 netdata/netdata:edge
+# --platform=linux/amd64 oguzpastirmaci/gpu-burn
+# --platform=linux/amd64 cschranz/gpu-jupyter:v1.7_cuda-12.2_ubuntu-22.04
+# --platform=linux/amd64 wwwsine/feishu2md
+# --platform=linux/amd64 cford38/evodiff
+--platform=linux/amd64 biochunan/esmfold-image:nonroot-runtime
+--platform=linux/amd64 fpocket/fpocket
 
 ### My images, for linux/arm64, also known the linux/aarch64
 
 # ---
 
 ### IMMICH
-ghcr.io/immich-app/immich-server:release
-ghcr.io/immich-app/immich-machine-learning:release
+# ghcr.io/immich-app/immich-server:release
+# ghcr.io/immich-app/immich-machine-learning:release
