@@ -24,8 +24,9 @@ ubuntu:latest
 
 # --platform=linux/amd64 nvidia/cuda:11.8.0-base-ubuntu22.04
 # --platform=linux/amd64 nvidia/cuda:11.6.2-cudnn8-runtime-ubuntu20.04
+--platform=linux/amd64 nvidia/cuda:11.3.1-devel-ubuntu20.04
 
---platform=linux/amd64 portainer/portainer-ce:2.21.0
+# --platform=linux/amd64 portainer/portainer-ce:2.21.0
 
 ### My images, for linux/arm64, also known the linux/aarch64
 
