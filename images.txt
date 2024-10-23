@@ -5,6 +5,7 @@
 
 ### Images
 ubuntu:latest
+nginx:latest
 
 ### My images, for linux/amd64
 --platform=linux/amd64 netdata/netdata:edge
@@ -22,8 +23,8 @@ ubuntu:latest
 --platform=linux/amd64 mambaorg/micromamba
 --platform=linux/amd64 continuumio/miniconda3
 
---platform=linux/amd64 mysql:8.0.39
---platform=linux/amd64 redis:7.2.4
+# --platform=linux/amd64 mysql:8.0.39
+# --platform=linux/amd64 redis:7.2.4
 
 # --platform=linux/amd64 nvidia/cuda:11.6.2-cudnn8-runtime-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:11.3.1-devel-ubuntu20.04
@@ -33,6 +34,23 @@ ubuntu:latest
 # --platform=linux/amd64 portainer/portainer-ce:2.21.0
 
 # --platform=linux/amd64 xprobe/xinference:latest
+
+### My images, for linux/amd64, for dify
+--platform=linux/amd64 langgenius/dify-api:0.10.0
+--platform=linux/amd64 langgenius/dify-web:0.10.0
+--platform=linux/amd64 langgenius/dify-sandbox:0.2.10
+--platform=linux/amd64 langgenius/qdrant:v1.7.3
+
+--platform=linux/amd64 postgres:15-alpine
+--platform=linux/amd64 redis:6-alpine
+--platform=linux/amd64 ubuntu/squid
+--platform=linux/amd64 certbot/certbot
+--platform=linux/amd64 semitechnologies/weaviate:1.19.0
+--platform=linux/amd64 pgvector/pgvector:pg16
+--platform=linux/amd64 tensorchord/pgvecto-rs:pg16-v0.3.0
+--platform=linux/amd64 opensearchproject/opensearch:latest
+--platform=linux/amd64 opensearchproject/opensearch-dashboards:latest
+--platform=linux/amd64 myscale/myscaledb:1.6.4
 
 ### My images, for linux/arm64, also known the linux/aarch64
 
