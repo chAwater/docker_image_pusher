@@ -5,8 +5,8 @@
 
 ### Images
 ubuntu:latest
-nginx:latest
-nginx:mainline
+# nginx:latest
+# nginx:mainline
 
 ### My images, for linux/amd64
 #### Server
@@ -16,23 +16,23 @@ nginx:mainline
 # --platform=linux/amd64 portainer/portainer-ce:2.21.0
 
 #### dev
---platform=linux/amd64 mambaorg/micromamba
---platform=linux/amd64 continuumio/miniconda3
+# --platform=linux/amd64 mambaorg/micromamba
+# --platform=linux/amd64 continuumio/miniconda3
 # --platform=linux/amd64 cschranz/gpu-jupyter:v1.7_cuda-12.2_ubuntu-22.04
 
 #### protein
 # --platform=linux/amd64 cford38/evodiff
 # --platform=linux/amd64 biochunan/esmfold-image:nonroot-runtime
 # --platform=linux/amd64 ghcr.io/metaphorme/vina-all:v1.2.5
---platform=linux/amd64 fpocket/fpocket
---platform=linux/amd64 gromacs/gromacs
+# --platform=linux/amd64 fpocket/fpocket
+# --platform=linux/amd64 gromacs/gromacs
 
 #### basic
 # --platform=linux/amd64 mysql:8.0.39
 # --platform=linux/amd64 redis:7.2.4
---platform=linux/amd64 redis:latest
---platform=linux/amd64 postgres:10
---platform=linux/amd64 postgres:15
+# --platform=linux/amd64 redis:latest
+# --platform=linux/amd64 postgres:10
+# --platform=linux/amd64 postgres:15
 
 #### cuda
 # --platform=linux/amd64 nvidia/cuda:11.3.1-devel-ubuntu20.04
@@ -46,8 +46,9 @@ nginx:mainline
 #### thunor
 --platform=linux/amd64 alubbock/thunorweb:latest
 --platform=linux/amd64 certbot/certbot
+--platform=linux/amd64 thunorweb/webpack
 
-### My images, for linux/amd64, for dify
+### dify
 # --platform=linux/amd64 langgenius/dify-api:0.10.0
 # --platform=linux/amd64 langgenius/dify-web:0.10.0
 # --platform=linux/amd64 langgenius/dify-sandbox:0.2.10
