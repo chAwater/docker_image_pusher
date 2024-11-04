@@ -46,7 +46,7 @@ ubuntu:latest
 #### thunor
 --platform=linux/amd64 alubbock/thunorweb:latest
 --platform=linux/amd64 certbot/certbot
---platform=linux/amd64 thunorweb/webpack
+--platform=linux/amd64 node:20-alpine
 
 ### dify
 # --platform=linux/amd64 langgenius/dify-api:0.10.0
