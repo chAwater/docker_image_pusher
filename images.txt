@@ -26,6 +26,8 @@ ubuntu:latest
 # --platform=linux/amd64 ghcr.io/metaphorme/vina-all:v1.2.5
 # --platform=linux/amd64 fpocket/fpocket
 # --platform=linux/amd64 gromacs/gromacs
+--platform=linux/amd64 rosettacommons/rosetta
+--platform=linux/amd64 ai4science/tfold
 
 #### basic
 # --platform=linux/amd64 mysql:8.0.39
@@ -41,7 +43,7 @@ ubuntu:latest
 # --platform=linux/amd64 nvidia/cuda:12.2.0-devel-ubuntu20.04
 
 #### AlphaFold2
---platform=linux/amd64 uvarc/alphafold:2.3.0
+# --platform=linux/amd64 uvarc/alphafold:2.3.0
 
 #### llm
 --platform=linux/amd64 xprobe/xinference:latest
