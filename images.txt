@@ -26,8 +26,9 @@ ubuntu:latest
 # --platform=linux/amd64 ghcr.io/metaphorme/vina-all:v1.2.5
 # --platform=linux/amd64 fpocket/fpocket
 # --platform=linux/amd64 gromacs/gromacs
---platform=linux/amd64 rosettacommons/rosetta
---platform=linux/amd64 ai4science/tfold
+# --platform=linux/amd64 rosettacommons/rosetta
+# --platform=linux/amd64 ai4science/tfold
+--platform=linux/amd64 akiyamalab/megadock:gpu
 
 #### basic
 # --platform=linux/amd64 mysql:8.0.39
