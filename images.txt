@@ -22,7 +22,7 @@ ubuntu:latest
 
 #### protein
 # --platform=linux/amd64 cford38/evodiff
---platform=linux/amd64 cford38/haddock
+--platform=linux/amd64 cford38/haddock:3
 --platform=linux/amd64 cford38/diffdock
 # --platform=linux/amd64 biochunan/esmfold-image:nonroot-runtime
 # --platform=linux/amd64 ghcr.io/metaphorme/vina-all:v1.2.5
