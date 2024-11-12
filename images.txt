@@ -22,8 +22,8 @@ ubuntu:latest
 
 #### protein
 # --platform=linux/amd64 cford38/evodiff
---platform=linux/amd64 cford38/haddock:3
---platform=linux/amd64 cford38/diffdock
+# --platform=linux/amd64 cford38/haddock:3
+# --platform=linux/amd64 cford38/diffdock
 # --platform=linux/amd64 biochunan/esmfold-image:nonroot-runtime
 # --platform=linux/amd64 ghcr.io/metaphorme/vina-all:v1.2.5
 # --platform=linux/amd64 fpocket/fpocket
@@ -43,8 +43,10 @@ ubuntu:latest
 # --platform=linux/amd64 nvidia/cuda:11.3.1-devel-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:11.6.2-cudnn8-runtime-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:11.8.0-base-ubuntu22.04
+--platform=linux/amd64 nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:12.2.0-devel-ubuntu20.04
---platform=linux/amd64 nvidia/cuda:12.6.0-base-ubuntu22.04
+--platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu20.04
+# --platform=linux/amd64 nvidia/cuda:12.6.0-base-ubuntu22.04
 
 #### AlphaFold2
 # --platform=linux/amd64 uvarc/alphafold:2.3.0
