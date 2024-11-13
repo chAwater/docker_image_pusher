@@ -4,14 +4,16 @@
 # ---
 
 ### Images
-ubuntu:latest
+# ubuntu:latest
 # nginx:latest
 # nginx:mainline
+
+gcc:5.1
 
 ### My images, for linux/amd64
 #### Server
 --platform=linux/amd64 netdata/netdata:edge
---platform=linux/amd64 wwwsine/feishu2md
+# --platform=linux/amd64 wwwsine/feishu2md
 # --platform=linux/amd64 oguzpastirmaci/gpu-burn
 # --platform=linux/amd64 portainer/portainer-ce:2.21.0
 
@@ -46,7 +48,7 @@ ubuntu:latest
 # --platform=linux/amd64 nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:12.2.0-devel-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu20.04
---platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-devel-ubuntu20.04
+# --platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-devel-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:12.6.0-base-ubuntu22.04
 
 #### AlphaFold2
