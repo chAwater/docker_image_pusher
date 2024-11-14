@@ -5,10 +5,13 @@
 
 ### Images
 # ubuntu:latest
+
 # nginx:latest
 # nginx:mainline
 
-gcc:5.1
+--platform=linux/amd64 centos:6
+--platform=linux/amd64 centos:7
+--platform=linux/amd64 centos:8
 
 ### My images, for linux/amd64
 #### Server
