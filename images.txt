@@ -9,9 +9,9 @@
 # nginx:latest
 # nginx:mainline
 
---platform=linux/amd64 centos:6
---platform=linux/amd64 centos:7
---platform=linux/amd64 centos:8
+# --platform=linux/amd64 centos:6
+# --platform=linux/amd64 centos:7
+# --platform=linux/amd64 centos:8
 
 ### My images, for linux/amd64
 #### Server
@@ -89,3 +89,9 @@
 ### IMMICH
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
+tensorchord/pgvecto-rs:pg14-v0.2.0
+redis:6.2-alpine
+
+containrrr/watchtower
+
+# registry.cn-hangzhou.aliyuncs.com/deepwave_docker/linux_amd64_*
