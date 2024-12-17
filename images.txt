@@ -33,6 +33,7 @@
 # --platform=linux/amd64 ghcr.io/metaphorme/vina-all:v1.2.5
 # --platform=linux/amd64 fpocket/fpocket
 # --platform=linux/amd64 gromacs/gromacs
+--platform=linux/amd64 gromacs/gromacs:gmx-2022-cuda-11.6.0-avx
 # --platform=linux/amd64 rosettacommons/rosetta
 # --platform=linux/amd64 ai4science/tfold
 # --platform=linux/amd64 akiyamalab/megadock:gpu
@@ -89,8 +90,8 @@
 ### IMMICH
 ghcr.io/immich-app/immich-server:release
 ghcr.io/immich-app/immich-machine-learning:release
-tensorchord/pgvecto-rs:pg14-v0.2.0
-redis:6.2-alpine
+# tensorchord/pgvecto-rs:pg14-v0.2.0
+# redis:6.2-alpine
 
 containrrr/watchtower
 
