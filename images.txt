@@ -3,6 +3,18 @@
 
 # ---
 
+# always update
+containrrr/watchtower
+
+ghcr.io/immich-app/immich-server:release
+ghcr.io/immich-app/immich-machine-learning:release
+
+--platform=linux/amd64 netdata/netdata:edge
+--platform=linux/amd64 wwwsine/feishu2md
+--platform=linux/amd64 xprobe/xinference:latest
+
+# ---
+
 ### Images
 # ubuntu:latest
 
@@ -13,10 +25,10 @@
 # --platform=linux/amd64 centos:7
 # --platform=linux/amd64 centos:8
 
+# ---
+
 ### My images, for linux/amd64
 #### Server
---platform=linux/amd64 netdata/netdata:edge
-# --platform=linux/amd64 wwwsine/feishu2md
 # --platform=linux/amd64 oguzpastirmaci/gpu-burn
 # --platform=linux/amd64 portainer/portainer-ce:2.21.0
 
@@ -33,7 +45,6 @@
 # --platform=linux/amd64 ghcr.io/metaphorme/vina-all:v1.2.5
 # --platform=linux/amd64 fpocket/fpocket
 # --platform=linux/amd64 gromacs/gromacs
---platform=linux/amd64 gromacs/gromacs:gmx-2022.2-cuda-11.6.0-avx
 # --platform=linux/amd64 rosettacommons/rosetta
 # --platform=linux/amd64 ai4science/tfold
 # --platform=linux/amd64 akiyamalab/megadock:gpu
@@ -59,14 +70,13 @@
 # --platform=linux/amd64 uvarc/alphafold:2.3.0
 
 #### llm
---platform=linux/amd64 xprobe/xinference:latest
 
 #### thunor
 # --platform=linux/amd64 alubbock/thunorweb:latest
 # --platform=linux/amd64 certbot/certbot
 # --platform=linux/amd64 node:20-alpine
 
-### dify
+#### dify
 # --platform=linux/amd64 langgenius/dify-api:0.10.0
 # --platform=linux/amd64 langgenius/dify-web:0.10.0
 # --platform=linux/amd64 langgenius/dify-sandbox:0.2.10
@@ -88,11 +98,7 @@
 # ---
 
 ### IMMICH
-ghcr.io/immich-app/immich-server:release
-ghcr.io/immich-app/immich-machine-learning:release
 # tensorchord/pgvecto-rs:pg14-v0.2.0
 # redis:6.2-alpine
-
-containrrr/watchtower
 
 # registry.cn-hangzhou.aliyuncs.com/deepwave_docker/linux_amd64_*
