@@ -77,6 +77,8 @@ ghcr.io/immich-app/immich-machine-learning:release
 # --platform=linux/amd64 node:20-alpine
 
 #### dify
+--platform=linux/amd64 langgenius/dify-api:0.14.2
+--platform=linux/amd64 langgenius/dify-web:0.14.2
 # --platform=linux/amd64 langgenius/dify-api:0.10.0
 # --platform=linux/amd64 langgenius/dify-web:0.10.0
 # --platform=linux/amd64 langgenius/dify-sandbox:0.2.10
