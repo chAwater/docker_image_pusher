@@ -49,7 +49,8 @@ ghcr.io/immich-app/immich-machine-learning:release
 # --platform=linux/amd64 ai4science/tfold
 # --platform=linux/amd64 akiyamalab/megadock:gpu
 # --platform=linux/amd64 pymesh/pymesh
---platform=linux/amd64 pablogainza/masif:latest
+# --platform=linux/amd64 pablogainza/masif:latest
+--platform=linux/amd64 pharmai/plip:latest
 
 #### basic
 # --platform=linux/amd64 mysql:8.0.39
