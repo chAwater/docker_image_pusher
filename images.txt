@@ -3,6 +3,8 @@
 
 # ---
 
+chawater/pxdesignbench
+
 # always update
 containrrr/watchtower
 
@@ -50,7 +52,7 @@ ghcr.io/immich-app/immich-machine-learning:release
 # --platform=linux/amd64 akiyamalab/megadock:gpu
 # --platform=linux/amd64 pymesh/pymesh
 # --platform=linux/amd64 pablogainza/masif:latest
---platform=linux/amd64 pharmai/plip:latest
+# --platform=linux/amd64 pharmai/plip:latest
 
 #### basic
 # --platform=linux/amd64 mysql:8.0.39
@@ -67,7 +69,7 @@ ghcr.io/immich-app/immich-machine-learning:release
 # --platform=linux/amd64 nvidia/cuda:12.2.0-devel-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-devel-ubuntu20.04
---platform=linux/amd64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+# --platform=linux/amd64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
 # --platform=linux/amd64 nvidia/cuda:12.6.0-base-ubuntu22.04
 
 #### AlphaFold2
@@ -81,8 +83,8 @@ ghcr.io/immich-app/immich-machine-learning:release
 # --platform=linux/amd64 node:20-alpine
 
 #### dify
---platform=linux/amd64 langgenius/dify-api:0.14.2
---platform=linux/amd64 langgenius/dify-web:0.14.2
+# --platform=linux/amd64 langgenius/dify-api:0.14.2
+# --platform=linux/amd64 langgenius/dify-web:0.14.2
 # --platform=linux/amd64 langgenius/dify-api:0.10.0
 # --platform=linux/amd64 langgenius/dify-web:0.10.0
 # --platform=linux/amd64 langgenius/dify-sandbox:0.2.10
