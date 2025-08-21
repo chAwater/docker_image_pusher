@@ -3,7 +3,7 @@
 
 # ---
 
-# chawater/pxdesignbench
+chawater/pxdesignbench
 
 # always update
 containrrr/watchtower
