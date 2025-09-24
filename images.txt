@@ -4,9 +4,12 @@
 # ---
 
 # --platform=linux/amd64 condaforge/miniforge3:25.3.1-0
+--platform=linux/amd64 mambaorg/micromamba:cuda11.8.0-ubuntu22.04
 
-chawater/af2_binder_design
+
+# chawater/af2_binder_design
 # chawater/pxdesignbench
+
 
 # always update
 containrrr/watchtower
