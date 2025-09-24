@@ -2,8 +2,10 @@
 # docker system info --format '{{.OSType}}/{{.Architecture}}'
 
 # ---
---platform=linux/amd64 condaforge/miniforge3:25.3.1-0
 
+# --platform=linux/amd64 condaforge/miniforge3:25.3.1-0
+
+chawater/af2_binder_design
 # chawater/pxdesignbench
 
 # always update
