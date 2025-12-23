@@ -78,7 +78,7 @@ containrrr/watchtower
 # --platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-devel-ubuntu20.04
 # --platform=linux/amd64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
 # --platform=linux/amd64 nvidia/cuda:12.6.0-base-ubuntu22.04
---platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-devel-ubuntu22.04
+# --platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-devel-ubuntu22.04
 
 #### AlphaFold2
 # --platform=linux/amd64 uvarc/alphafold:2.3.0
