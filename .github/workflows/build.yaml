@@ -62,7 +62,7 @@ jobs:
         git clone $GITHUB_REPO_URL $IMAGE_NAME
         echo "Target repository cloned successfully"
 
-        docker build -t $IMAGE_NAME -f Dockerfile ./IMAGE_NAME
+        docker build -t $IMAGE_NAME -f Dockerfile ./$IMAGE_NAME
 
         new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$IMAGE_NAME"
         docker tag $IMAGE_NAME $new_image
