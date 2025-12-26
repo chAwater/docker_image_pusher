@@ -1,4 +1,4 @@
-FROM micromamba:cuda12.1.1-ubuntu22.04
+FROM mambaorg/micromamba:cuda12.1.1-ubuntu22.04-ubuntu22.04
 
 ARG MAMBA_DOCKERFILE_ACTIVATE=1
 
