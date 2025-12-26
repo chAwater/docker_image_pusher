@@ -19,7 +19,7 @@ env:
 jobs:
 
   build:
-    name: Build
+    name: Pull
     runs-on: ubuntu-latest
     steps:
     - name: Before freeing up disk space
