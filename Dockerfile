@@ -17,6 +17,7 @@ ARG MAMBA_USER_GID=57439
 ENV MAMBA_USER=$MAMBA_USER
 ENV MAMBA_ROOT_PREFIX="/opt/conda"
 ENV MAMBA_EXE="/bin/micromamba"
+ENV CUTLASS_PATH="/app/cutlass"
 
 COPY --from=micromamba "$MAMBA_EXE" "$MAMBA_EXE"
 COPY --from=micromamba /usr/local/bin/_activate_current_env.sh /usr/local/bin/_activate_current_env.sh
@@ -28,13 +29,11 @@ COPY --from=micromamba /usr/local/bin/_dockerfile_setup_root_prefix.sh /usr/loca
 RUN /usr/local/bin/_dockerfile_initialize_user_accounts.sh && \
     /usr/local/bin/_dockerfile_setup_root_prefix.sh
 
+RUN git clone -b v3.5.1 https://github.com/NVIDIA/cutlass.git "/app/cutlass"
+
 USER $MAMBA_USER
 
 COPY --chown=$MAMBA_USER:$MAMBA_USER . /app/pxdesign
-
-RUN git clone -b v3.5.1 https://github.com/NVIDIA/cutlass.git "$HOME/cutlass"
-
-ENV CUTLASS_PATH="$HOME/cutlass"
 
 WORKDIR /app/pxdesign
 
