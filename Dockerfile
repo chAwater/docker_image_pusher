@@ -32,6 +32,10 @@ USER $MAMBA_USER
 
 COPY --chown=$MAMBA_USER:$MAMBA_USER . /app/pxdesign
 
+RUN git clone -b v3.5.1 https://github.com/NVIDIA/cutlass.git "$HOME/cutlass"
+
+ENV CUTLASS_PATH="$HOME/cutlass"
+
 WORKDIR /app/pxdesign
 
 # ENV_NAME=pxdesign
