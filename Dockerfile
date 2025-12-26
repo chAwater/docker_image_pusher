@@ -39,6 +39,7 @@ RUN bash -x install.sh --env pxdesign --pkg_manager micromamba --cuda-version 12
 
 SHELL ["/usr/local/bin/_dockerfile_shell.sh"]
 
-# Optional: if you want to customize the ENTRYPOINT and have a conda
-# environment activated, then do this:
-ENTRYPOINT ["/usr/local/bin/_entrypoint.sh", 'pxdesign']
+ENTRYPOINT ["/usr/local/bin/_entrypoint.sh"]
+
+# You can modify the CMD statement as needed....
+CMD ["/bin/bash"]
