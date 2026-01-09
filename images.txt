@@ -5,7 +5,7 @@
 
 # --platform=linux/amd64 condaforge/miniforge3:25.3.1-0
 # --platform=linux/amd64 mambaorg/micromamba:cuda11.8.0-ubuntu22.04
---platform=linux/amd64 mambaorg/micromamba:cuda12.1.1-ubuntu22.04
+# --platform=linux/amd64 mambaorg/micromamba:cuda12.1.1-ubuntu22.04
 # --platform=linux/amd64 mambaorg/micromamba:cuda12.4.1-ubuntu22.04
 
 # chawater/af2_binder_design
@@ -79,6 +79,8 @@ containrrr/watchtower
 # --platform=linux/amd64 nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
 # --platform=linux/amd64 nvidia/cuda:12.6.0-base-ubuntu22.04
 # --platform=linux/amd64 nvidia/cuda:12.2.2-cudnn8-devel-ubuntu22.04
+
+--platform=linux/amd64 pytorch/pytorch:2.1.2-cuda12.1-cudnn8-devel
 
 #### AlphaFold2
 # --platform=linux/amd64 uvarc/alphafold:2.3.0
