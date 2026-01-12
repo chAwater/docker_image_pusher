@@ -24,4 +24,5 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
     pip install --no-cache-dir "git+https://github.com/bytedance/PXDesignBench.git" && \
     (sed -i -e '/pxdbench/d' -e '/protenix/d' requirements.txt || true) && \
     pip install --no-cache-dir -r requirements.txt && \
+    pip install git+https://github.com/bytedance/Protenix.git@v0.5.0+pxd && \
     pip install --no-cache-dir -e .
