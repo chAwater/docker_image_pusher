@@ -10,7 +10,7 @@
 
 # chawater/af2_binder_design
 # chawater/pxdesignbench
-chawater:claude-code-dev
+chawater/claude-code-dev:latest
 
 # always update
 containrrr/watchtower
