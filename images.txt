@@ -14,13 +14,14 @@
 ghcr.io/chawater/boltzgen:latest
 
 # always update
-containrrr/watchtower
+#containrrr/watchtower
+nickfedor/watchtower
 
 # ghcr.io/immich-app/immich-server:release
 # ghcr.io/immich-app/immich-machine-learning:release
 
---platform=linux/amd64 netdata/netdata:edge
---platform=linux/amd64 wwwsine/feishu2md
+# --platform=linux/amd64 netdata/netdata:edge
+# --platform=linux/amd64 wwwsine/feishu2md
 # --platform=linux/amd64 xprobe/xinference:latest
 
 # ---
