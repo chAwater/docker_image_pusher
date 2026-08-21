@@ -10,8 +10,8 @@
 
 # chawater/af2_binder_design
 # chawater/pxdesignbench
-# chawater/claude-code-dev:latest
-ghcr.io/chawater/boltzgen:latest
+chawater/claude-code-dev:latest
+# ghcr.io/chawater/boltzgen:latest
 
 # always update
 #containrrr/watchtower
